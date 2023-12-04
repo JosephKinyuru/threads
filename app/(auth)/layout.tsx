@@ -4,9 +4,12 @@ import '../globals.css'
 
 export const metadata = {
     title: 'Threads',
-    description: "A Next.js 13 Meta Threads Application"
-}
-
+    description: "A Next.js 13 Meta Threads Application",
+    icons: {
+      icon: '/assets/favicon.ico',
+    },
+  };
+  
 const inter = Inter({subsets: ["latin"]})
 
 export default function RootLayout({
