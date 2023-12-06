@@ -1,5 +1,6 @@
 [build]
-  functions = ".next/serverless" 
+  functions = ".next/serverless"
 
 [functions]
-  timeout = 20 
+  [functions.timeout]
+    duration = 20
